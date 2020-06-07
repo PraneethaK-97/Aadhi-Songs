@@ -31,11 +31,14 @@ for(var i=0; i<document.querySelectorAll(".common").length;i++){
   case "Play6":
       var audio6= new Audio("songs/vaadineevaadi.mp3");
       audio6.play();
+
       break;
+
     default:
 
   }
-
+this.innerHTML="Playing";
+this.style.color="white";
 });
 
 
